@@ -12,3 +12,4 @@ CATEGORIES="WinApps;Documents"
 
 # GNOME mimetypes
 MIME_TYPES="application/pdf;"
+ICON=/home/mattm/Git/winapps/apps/acrobat-x-pro/icon.svg

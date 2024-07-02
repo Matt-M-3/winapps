@@ -12,3 +12,4 @@ CATEGORIES="WinApps;Office"
 
 # GNOME mimetypes
 MIME_TYPES="application/vnd.ms-publisher;"
+ICON=/home/mattm/Git/winapps/apps/publisher-o365/icon.svg

@@ -12,3 +12,4 @@ CATEGORIES="WinApps;Office"
 
 # GNOME mimetypes
 MIME_TYPES="application/x-msaccess;"
+ICON=/home/mattm/Git/winapps/apps/access/icon.svg

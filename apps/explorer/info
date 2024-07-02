@@ -12,3 +12,4 @@ CATEGORIES="WinApps;Windows"
 
 # GNOME mimetypes
 MIME_TYPES=""
+ICON=/home/mattm/Git/winapps/apps/explorer/icon.svg

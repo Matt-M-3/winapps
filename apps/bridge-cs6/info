@@ -14,4 +14,4 @@ CATEGORIES="WinApps;Adobe"
 MIME_TYPES="image/vnd.adobe.photoshop;"
 
 # System Icon
-ICON="AdobeBridge"
+ICON=/home/mattm/Git/winapps/apps/bridge-cs6/icon.svg

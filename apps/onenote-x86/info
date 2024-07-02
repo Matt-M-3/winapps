@@ -14,4 +14,4 @@ CATEGORIES="WinApps;Office"
 MIME_TYPES="application/msonenote;"
 
 # System Icon
-ICON="ms-onenote"
+ICON=/home/mattm/Git/winapps/apps/onenote-x86/icon.svg

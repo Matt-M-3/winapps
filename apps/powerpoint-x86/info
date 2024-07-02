@@ -14,4 +14,4 @@ CATEGORIES="WinApps;Office"
 MIME_TYPES="application/vnd.ms-powerpoint;application/vnd.openxmlformats-officedocument.presentationml.presentation;application/vnd.openxmlformats-officedocument.presentationml.template;application/vnd.openxmlformats-officedocument.presentationml.slideshow;application/vnd.ms-powerpoint.addin.macroEnabled.12;application/vnd.ms-powerpoint.presentation.macroEnabled.12;application/vnd.ms-powerpoint.template.macroEnabled.12;application/vnd.ms-powerpoint.slideshow.macroEnabled.12;"
 
 # System Icon
-ICON="ms-powerpoint"
+ICON=/home/mattm/Git/winapps/apps/powerpoint-x86/icon.svg

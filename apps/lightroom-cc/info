@@ -14,4 +14,4 @@ CATEGORIES="WinApps;Adobe"
 MIME_TYPES=""
 
 # System Icon
-ICON="AdobeLightroom"
+ICON=/home/mattm/Git/winapps/apps/lightroom-cc/icon.svg

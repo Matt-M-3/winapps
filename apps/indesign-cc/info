@@ -14,4 +14,4 @@ CATEGORIES="WinApps;Adobe"
 MIME_TYPES="application/x-adobe-indesign-interchange;application/x-adobe-indesign;"
 
 # System Icon
-ICON="AdobeIndesign"
+ICON=/home/mattm/Git/winapps/apps/indesign-cc/icon.svg

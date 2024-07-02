@@ -14,4 +14,4 @@ CATEGORIES="WinApps;Adobe"
 MIME_TYPES=""
 
 # System Icon
-ICON="AdobeUpdate"
+ICON=/home/mattm/Git/winapps/apps/adobe-cc/icon.svg

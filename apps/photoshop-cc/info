@@ -14,4 +14,4 @@ CATEGORIES="WinApps;Adobe"
 MIME_TYPES="image/vnd.adobe.photoshop;"
 
 # System Icon
-ICON="AdobePhotoshop"
+ICON=/home/mattm/Git/winapps/apps/photoshop-cc/icon.svg

@@ -65,7 +65,7 @@ if [ -z "$RDP_IP" ]; then
         echo "  sudo usermod -a -G kvm $(whoami)"
         exit
     fi
-    if virsh list | grep -vq RDPWindows; then
+    if ! virsh list --name | grep -q "RDPWindows"; then
         echo "RDPWindows is not running, run:"
         echo "  virsh start RDPWindows"
         exit
@@ -94,7 +94,7 @@ if [ "$1" = "windows" ]; then
     $FREERDP_COMMAND /d:"$RDP_DOMAIN" /u:"$RDP_USER" /p:"$RDP_PASS" /scale:$RDP_SCALE +dynamic-resolution +auto-reconnect +home-drive /wm-class:"Microsoft Windows" /v:"$RDP_IP" 1>/dev/null 2>&1 &
 elif [ "$1" = "check" ]; then
     dprint "CHECK"
-    $FREERDP_COMMAND /d:"$RDP_DOMAIN" /u:"$RDP_USER" /p:"$RDP_PASS" /scale:$RDP_SCALE +auto-reconnect +home-drive -wallpaper +dynamic-resolution $MULTI_FLAG /app:program:"explorer.exe" /v:"$RDP_IP"
+    $FREERDP_COMMAND /d:"$RDP_DOMAIN" /u:"$RDP_USER" /p:"$RDP_PASS" /scale:$RDP_SCALE +auto-reconnect +home-drive -wallpaper +dynamic-resolution $MULTI_FLAG /app:program:"%windir%\explorer.exe" /v:"$RDP_IP"
 elif [ "$1" = "manual" ]; then
     dprint "MANUAL:$2"
     $FREERDP_COMMAND /d:"$RDP_DOMAIN" /u:"$RDP_USER" /p:"$RDP_PASS" /scale:$RDP_SCALE +auto-reconnect +home-drive +dynamic-resolution $MULTI_FLAG /app:program:"$2" /v:"$RDP_IP" 1>/dev/null 2>&1 &

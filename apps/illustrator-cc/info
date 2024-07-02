@@ -14,4 +14,4 @@ CATEGORIES="WinApps;Adobe"
 MIME_TYPES="application/illustrator;"
 
 # System Icon
-ICON="AdobeIllustrator"
+ICON=/home/mattm/Git/winapps/apps/illustrator-cc/icon.svg
